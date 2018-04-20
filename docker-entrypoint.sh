@@ -1,10 +1,10 @@
 #!/bin/bash
 
-set -e
+set -xe
 
 if [[ -f '/usr/src/app/requirements.txt' ]]
 then
-    pip install -U -q -r /usr/src/app/requirements.txt
+    pip --disable-pip-version-check install -U -q -r /usr/src/app/requirements.txt
 fi
 
 if [[ "$1" == 'python' || "$1" == 'python3' ]]
