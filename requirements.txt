@@ -1,3 +1,4 @@
+pip
 boto3
 docopt
 awslogs
