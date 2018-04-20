@@ -1,3 +1,13 @@
+# git
 *.md
 LICENSE
+.git
+.gitignore
+
+# docker
 Dockerfile*
+.dockerignore
+
+# python
+*.py
+*.pyc
