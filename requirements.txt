@@ -1,1 +1,6 @@
+pip
 boto3
+awscli
+docopt
+requests
+pyyaml
